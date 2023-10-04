@@ -17,6 +17,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./gpg.sh
 ./image_tools.sh
 ./intellij.sh
+./iterm.sh
 #./misc.sh
 #./misc_tools.sh
 ./../npm.sh
