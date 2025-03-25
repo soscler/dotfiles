@@ -1,4 +1,4 @@
-[Chriss][repo]’s dotfiles
+# [Chriss][repo]’s dotfiles
 
 [![CI status for macOS][ci badge macos]][ci link macos]
 [![CI status for Ubuntu][ci badge ubuntu]][ci link ubuntu]
