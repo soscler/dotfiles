@@ -1,5 +1,5 @@
-[Chriss][repo]’s dotfiles
-==========================
+# [Chriss][repo]’s dotfiles
+
 
 [![CI status for macOS][ci badge macos]][ci link macos]
 [![CI status for Ubuntu][ci badge ubuntu]][ci link ubuntu]
@@ -8,13 +8,12 @@ These are the base dotfiles that I start with when I set up
 a new environment (for more specific local needs I use the
 [`*.local`](#local-settings) files).
 
-Table of Contents
------------------
+## Table of Contents
 
 * [🔧 Setup](#setup)
 * [📸 Screenshots](#screenshots)
   * [🔁 Git](#git)
-  * [⌨️  tmux & Vim](#tmux--vim)
+  * [⌨️  Vim](#vim)
 * [💄 Customize](#customize)
   * [🔀 Forks](#forks)
   * [🌐 Local Settings](#local-settings)
@@ -24,13 +23,13 @@ Table of Contents
 * [↕️  Update](#update)
 * [📑 License](#license)
 
-Setup
------
+## Setup
 
 To set up the dotfiles run the appropriate snippet in the terminal:
 
-(⚠️  __DO NOT__ run the `setup` script if you do not fully understand
-[what it does][setup]. Seriously, __DON'T__!)
+> [!CAUTION]
+> __DO NOT__ run the setup script if you do not fully understand
+> [what it does][setup]. Seriously, __DON'T__!
 
 | OS | Snippet |
 |:---|:---|
@@ -59,8 +58,7 @@ Setup process in action:
 |:---:|:---:|
 <!-- markdownlint-enable MD033 -->
 
-Screenshots
------------
+## Screenshots
 
 ### Git
 
@@ -76,14 +74,13 @@ Output for `git log`:
 |:---:|:---:|
 | macOS | Ubuntu |
 
-### tmux & Vim
+### Vim
 
-| ![tmux and Vim on macOS][vim macos] | ![tmux and Vim on Ubuntu][vim ubuntu] |
+| ![Vim on macOS][vim macos] | ![Vim on Ubuntu][vim ubuntu] |
 |:---:|:---:|
 | macOS | Ubuntu |
 
-Customize
----------
+## Customize
 
 ### Local Settings
 
@@ -135,7 +132,7 @@ such as the Git user credentials, e.g.:
 
 [user]
 
-    name = Cătălin Mariș
+    name = Your Name
     email = account@example.com
     signingKey = XXXXXXXX
 ```
@@ -167,18 +164,16 @@ nnoremap <Up>    :echoe "Use k"<CR>
 ### Forks
 
 If you decide to [fork] this project, do not forget to substitute
-my username with your own in the [`setup` snippets](#setup) and
-[in the `setup` script][setup script].
+my username with your own in the [setup snippets](#setup) and [in
+the setup script][setup script].
 
-Update
-------
+## Update
 
-To update the dotfiles you can either run the [`setup` script][setup]
+To update the dotfiles you can either run the [setup script][setup]
 or, if you want to update one particular part, run the appropriate
-[`os` script](src/os).
+[os script](src/os).
 
-License
--------
+## License
 
 The code is available under the [MIT license][license].
 
