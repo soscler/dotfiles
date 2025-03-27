@@ -10,7 +10,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./homebrew.sh
 ./bash.sh
 ./git.sh
-#./../volta.sh
+./../volta.sh
 ./browsers.sh
 #./compression_tools.sh
 ./docker.sh
